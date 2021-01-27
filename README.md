@@ -25,3 +25,5 @@ We will rename it when appropriate.
 - 草稿，画家，调查员，写作 : Jiaqi Xian
 - 画家，调查员 : 宋順
 - 程序员 : [@umiwatarin](https://github.com/umiwatarin)
+
+<small>言語お菓子かったら教えてください🙇</small>
