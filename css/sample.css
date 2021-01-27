@@ -15,6 +15,12 @@ span {
   text-justify: auto;
   word-break: break-all;
 }
-.explanation {
-  color: red;
+.data__explanation {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #636363;
+}
+.detail {
+  color: #636363;
 }

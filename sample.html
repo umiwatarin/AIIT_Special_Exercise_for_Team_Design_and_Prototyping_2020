@@ -24,9 +24,10 @@
 
   <div class="data" id="data" data-stein-url="https://api.steinhq.com/v1/storages/60081738f62b6004b3eb652e/'Sheet1'"
     data-stein-limit="1">
-    <div class="explanation">{{value}}</div>
-    <div class="detail">{{value_detail}}</div>
-    <img id="image" />
+    <img id="image" class="data__image"/>
+    <div class="data__explanation">{{value}}</div>
+    <div class="data__detail">{{value_detail}}</div>
+    
   </div>
   <!-- 外部ファイル化したかったCSV(type指定しない場合JavaScriptとして扱われてエラーが起きます)
     <script type="text/csv" id="csv">
@@ -44,9 +45,11 @@
     console.log('random is', random)
     store.read("Sheet1", { limit: 1, offset: random }).then(data => {
       console.dir(data);
+      const imageUrl = data.image_url
+      console.log('imageUrl', imageUrl)
     })
     document.getElementById("data").setAttribute("data-stein-offset", random);
-    document.getElementById("image").setAttribute("url", steindetorikondaURLnovariable);
+    document.getElementById("image").setAttribute("url", imageUrl);
   </script>
   <script src="https://unpkg.com/stein-expedite@0.0.4/dist/index.js"></script>
 
