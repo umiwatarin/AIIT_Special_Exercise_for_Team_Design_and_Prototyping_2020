@@ -19,9 +19,10 @@
   <div class="data" id="data" data-stein-url="https://api.steinhq.com/v1/storages/60081738f62b6004b3eb652e/'Sheet1'"
     data-stein-limit="1">
     <img id="image" class="data__image">
-    <div class="data__explanation">{{value}}</div>
-    <div class="data__detail">{{value_detail}}</div>
-    
+    <div class="data__text">
+      <div class="data__explanation">{{value}}</div>
+      <div class="data__detail">{{value_detail}}</div>
+    </div>
   </div>
   <script>
     var random = Math.floor(Math.random() * 33); //　ファイルの行数値はハードコード

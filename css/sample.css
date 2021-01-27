@@ -6,8 +6,8 @@ span {
 
 .data {
   /* width and height should stay lower than that of iframe */
-  width: 900px; 
-  height: 420px;
+  width: 960px; 
+  height: 600px;
   background: #FFFFFF;
   box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -15,7 +15,12 @@ span {
   text-justify: auto;
   word-break: break-all;
 }
+.data__text {
+  display: inline-block;
+  width: 300px;
+}
 .data__explanation {
+
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -27,6 +32,6 @@ span {
 .data__image {
   display: inline-block;
   width: 400px;
-  height: 420px;
-  margin: 0 36px 0 0;
+  height: 400px;
+  margin: 96px;
 }
