@@ -26,6 +26,7 @@
     data-stein-limit="1">
     <div class="explanation">{{value}}</div>
     <div class="detail">{{value_detail}}</div>
+    <img id="image" />
   </div>
   <!-- 外部ファイル化したかったCSV(type指定しない場合JavaScriptとして扱われてエラーが起きます)
     <script type="text/csv" id="csv">
@@ -39,12 +40,13 @@
         document.body.innerText = data;
     </script> -->
   <script>
-    var random = Math.floor(Math.random() * 19); //　ファイルの行数値はハードコード
+    var random = Math.floor(Math.random() * 33); //　ファイルの行数値はハードコード
     console.log('random is', random)
     store.read("Sheet1", { limit: 1, offset: random }).then(data => {
       console.dir(data);
     })
     document.getElementById("data").setAttribute("data-stein-offset", random);
+    document.getElementById("image").setAttribute("url", steindetorikondaURLnovariable);
   </script>
   <script src="https://unpkg.com/stein-expedite@0.0.4/dist/index.js"></script>
 
