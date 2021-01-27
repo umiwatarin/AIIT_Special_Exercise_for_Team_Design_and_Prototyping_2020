@@ -1,5 +1,9 @@
 /* Rectangle 80 */
 
+span {
+  display: inline-block;
+}
+
 .data {
   width: 960px;
   height: 480px;
@@ -8,7 +12,13 @@
   border-radius: 20px;
   text-align: justify;
   text-justify: auto;
+  word-break: break-all;
 }
 .explanation {
   color: red;
+}
+
+iframe {
+  width: 960px;
+  height: 480px;
 }
