@@ -5,8 +5,8 @@ span {
 }
 
 .data {
-  width: 960px;
-  height: 480px;
+  /* width: 960px;
+  height: 480px; */
   background: #FFFFFF;
   box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -21,4 +21,5 @@ span {
 iframe {
   width: 960px;
   height: 480px;
+  border: none;
 }
