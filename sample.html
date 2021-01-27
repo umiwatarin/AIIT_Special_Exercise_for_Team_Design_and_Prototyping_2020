@@ -45,11 +45,12 @@
     console.log('random is', random)
     store.read("Sheet1", { limit: 1, offset: random }).then(data => {
       console.dir(data);
-      const imageUrl = data.image_url
+      const imageUrl = data[0].image_url
       console.log('imageUrl', imageUrl)
     })
     document.getElementById("data").setAttribute("data-stein-offset", random);
     document.getElementById("image").setAttribute("url", imageUrl);
+
   </script>
   <script src="https://unpkg.com/stein-expedite@0.0.4/dist/index.js"></script>
 

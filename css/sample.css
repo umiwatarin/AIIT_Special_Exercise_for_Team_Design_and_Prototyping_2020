@@ -21,6 +21,11 @@ span {
   line-height: 21px;
   color: #636363;
 }
-.detail {
+.data__detail {
   color: #636363;
+}
+.data__image {
+  width: 400px;
+  height: 420px;
+
 }
