@@ -4,8 +4,22 @@ Special Exercise for Team Design and Prototyping in 2020 at [AIIT](https://aiit.
 ## Nani!?
 We will rename it when appropriate.
 
+# File organization
+- sample.html : Screen displayed
+- test.html : Display sample on the user side
+
 # Staff
 - Teaching staff : [@xerroxcopy](https://github.com/xerroxcopy)
 - Originator, Investigator : Jiaqi Xian
 - Illustrator, Investigator : 宋順
 - Ganbaru man : [@umiwatarin](https://github.com/umiwatarin)
+
+---
+
+# 
+
+# 员工信用
+- 老师 : [@xerroxcopy](https://github.com/xerroxcopy)
+- 草稿，调查员，写作 : Jiaqi Xian
+- 画家，调查员 : 宋順
+- 程序员 : [@umiwatarin](https://github.com/umiwatarin)

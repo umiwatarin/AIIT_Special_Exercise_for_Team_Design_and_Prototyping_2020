@@ -16,8 +16,19 @@ span {
   word-break: break-all;
 }
 .data__text {
+  vertical-align: top;
+
   display: inline-block;
   width: 300px;
+}
+.data__skip {
+  /* height should be the same as the margin for data__image */
+  height: 96px;
+  color: #799B80;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
 }
 .data__explanation {
 
@@ -25,6 +36,7 @@ span {
   font-size: 18px;
   line-height: 21px;
   color: #636363;
+  margin: 0 0 32px;
 }
 .data__detail {
   color: #636363;
