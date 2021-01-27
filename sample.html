@@ -30,9 +30,9 @@
       console.dir(data);
       var imageUrl = data[0].image_url;
       console.log('imageUrl', imageUrl);
+      document.getElementById("image").setAttribute("src", imageUrl);
     })
     document.getElementById("data").setAttribute("data-stein-offset", random);
-    document.getElementById("image").setAttribute("src", imageUrl);
 
   </script>
   <script src="https://unpkg.com/stein-expedite@0.0.4/dist/index.js"></script>
