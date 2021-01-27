@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!-- <script type="text/javascript" src="sample.js"></script> -->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,40 +14,25 @@
     const store = new SteinStore(
       "https://api.steinhq.com/v1/storages/60081738f62b6004b3eb652e"
     );
-
-    ;
-
-
   </script>
 
   <div class="data" id="data" data-stein-url="https://api.steinhq.com/v1/storages/60081738f62b6004b3eb652e/'Sheet1'"
     data-stein-limit="1">
-    <img id="image" class="data__image"/>
+    <img id="image" class="data__image">
     <div class="data__explanation">{{value}}</div>
     <div class="data__detail">{{value_detail}}</div>
     
   </div>
-  <!-- 外部ファイル化したかったCSV(type指定しない場合JavaScriptとして扱われてエラーが起きます)
-    <script type="text/csv" id="csv">
-      豚の瞼は二重, 二重瞼は、砂やとげのある葉から目を保護することができます。 ラクダとキリンも二重瞼です。
-    </script>
-  
-    <script>
-       // 外部ファイル化したかった内容
-        var data = document.getElementById("csv").text.trim();
-        console.log(data);
-        document.body.innerText = data;
-    </script> -->
   <script>
     var random = Math.floor(Math.random() * 33); //　ファイルの行数値はハードコード
     console.log('random is', random)
     store.read("Sheet1", { limit: 1, offset: random }).then(data => {
       console.dir(data);
-      const imageUrl = data[0].image_url
-      console.log('imageUrl', imageUrl)
+      var imageUrl = data[0].image_url;
+      console.log('imageUrl', imageUrl);
     })
     document.getElementById("data").setAttribute("data-stein-offset", random);
-    document.getElementById("image").setAttribute("url", imageUrl);
+    document.getElementById("image").setAttribute("src", imageUrl);
 
   </script>
   <script src="https://unpkg.com/stein-expedite@0.0.4/dist/index.js"></script>
