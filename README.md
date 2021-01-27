@@ -6,4 +6,6 @@ We will rename it when appropriate.
 
 # Staff
 - Teaching staff : [@xerroxcopy](https://github.com/xerroxcopy)
+- Originator, Investigator : Jiaqi Xian
+- Illustrator, Investigator : 宋順
 - Ganbaru man : [@umiwatarin](https://github.com/umiwatarin)
