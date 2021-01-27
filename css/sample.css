@@ -5,8 +5,9 @@ span {
 }
 
 .data {
-  /* width: 960px;
-  height: 480px; */
+  /* width and height should stay lower than that of iframe */
+  width: 900px; 
+  height: 420px;
   background: #FFFFFF;
   box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -16,10 +17,4 @@ span {
 }
 .explanation {
   color: red;
-}
-
-iframe {
-  width: 960px;
-  height: 480px;
-  border: none;
 }
