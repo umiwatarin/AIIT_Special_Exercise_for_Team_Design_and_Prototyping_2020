@@ -16,7 +16,9 @@ We will rename it when appropriate.
 
 ---
 
-# 
+# 文件组织
+- sample.html：显示的屏幕
+- test.html：在用户端显示示例
 
 # 员工信用
 - 老师 : [@xerroxcopy](https://github.com/xerroxcopy)
