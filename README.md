@@ -9,9 +9,10 @@ Embed iframe tag for content you provide, example when your customers be kept wa
 - etc...
 
 Please use this tag.
-'''
+
+```
 <iframe width="1000" height="640" frameborder="0" src="https://umiwatarin.github.io/AIIT_Special_Exercise_for_Team_Design_and_Prototyping_2020/sample.html"></iframe>
-'''
+```
 
 # Change log
 current version is 1.0.1
