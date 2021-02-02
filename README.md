@@ -1,6 +1,24 @@
 # AIIT_Special_Exercise_for_Team_Design_and_Prototyping_2020
 Special Exercise for Team Design and Prototyping in 2020 at [AIIT](https://aiit.ac.jp)
 
+# How to use?
+Embed iframe tag for content you provide, example when your customers be kept wait some time to ready to it.
+- Load long video
+- Load huge size pictures
+- Load for stage of game
+- etc...
+
+Please use this tag.
+'''
+<iframe width="1000" height="640" frameborder="0" src="https://umiwatarin.github.io/AIIT_Special_Exercise_for_Team_Design_and_Prototyping_2020/sample.html"></iframe>
+'''
+
+# Change log
+current version is 1.0.1
+- 1.0.1 display picture (Feb 3, 2021)
+- 1.0.0 release (Jan 27, 2021)
+- 0.0.0 Initial commit (Jan 13, 2021)
+
 ## Nani!?
 We will rename it when appropriate.
 
